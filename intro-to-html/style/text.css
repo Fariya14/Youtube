@@ -1,0 +1,51 @@
+p{
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    width: 400px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.st{
+    font-size: 20px;
+    color: rgb(0,0,0);
+    margin-bottom: 10px;
+}
+.me{
+    color: rgb(0,0,0);
+    font-size: 20px;
+}
+.ds{
+    font-size: 22px;
+    color: black;
+    width: 450px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+
+}
+.txt{
+    margin-bottom: 60px;
+    font-size: 16px;
+    background-color: rgb(227,65,64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    
+}
+.s:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.span-example{
+    margin-left: 10px;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+
+    </head>
+
+
+    <body>
+       <!-- Semantic elements - header,nav,main,section , works like div-->
+        <header class="header">
+            <div class="left">
+                <img class = "ham" src="icons/hamburger-menu.svg">
+                <img class="utube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle">
+                <input class="search" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class = "search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+
+                </button>
+                <button class="voice-button">
+                    <img class="voice-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+
+                </button>
+                </div>
+            <div class="right">
+                <div class="upload-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+
+                </div>
+                <div class="apps-container">
+                    <img class="app-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">Apps</div>
+                </div>
+                <div class="noti-container">
+                    <img class="noti-icon" src="icons/notifications.svg">
+                    <div class="noti-count">4</div>
+                    <div class="tooltip">Notifications</div>
+
+                </div>
+                
+                <img class="me-icon" src="channel-pictures/me.jpg">
+            </div>        
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>  <!-- this is to navigate through , works like div-->
+
+
+        <main>  <!-- this is the main videos , works like div-->
+            <section class="video-grid">
+                <div class="video">
+                    <div class="pic-row"> 
+                        <img class ="pic" src="pictures/hq720.webp">
+                        <div class="video-time"><strong>6:31:23</strong></div>
+                    </div>
+                    <div class="info-grid">
+                        <div class="channel-pic">                
+                            <img class = "profile-pic" src="channel-pictures/unnamed.jpg">
+                        </div>
+                        <div class="info">
+                            <p class="video-title">
+                                <strong>HTML and CSS Full Course - Beginner to Pro</strong>
+                            </p>
+                            <p class="author">
+                                SuperSimpleDev
+                            </p>
+                            <p class="stats"> 
+                                6.3M views &#183; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pic-row"> 
+                        <img class ="pic" src="pictures/hqdefault.webp">
+                        <div class="video-time"><strong>9:13</strong></div>
+                    </div>
+                    <div class="info-grid">
+                        <div class="channel-pic">                
+                            <img class = "profile-pic" src="channel-pictures/unnamed2.jpg">
+                        </div>
+                        <div class="info">
+                            <p class="video-title">
+                                <strong>
+                                    What all must a follower recite when praying behind the imam? - Assim al hakeem
+                                </strong>
+                            </p>
+                            <p class="author">
+                                assimalhakeem ✓
+                            </p>
+                            <p class="stats">
+                                316K views · 4 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pic-row"> 
+                        <img class ="pic" src="pictures/hq721.webp">
+                        <div class="video-time"><strong>6:15</strong></div>
+                    </div>
+                    <div class="info-grid">
+                        <div class="channel-pic">                
+                            <img class = "profile-pic" src="channel-pictures/channels4_profile.jpg">
+                        </div>
+                        <div class="info">
+                            <p class="video-title">
+                                <strong>LOFI Quraan- Relaxing Quraan</strong>
+                            </p>
+                            <p class="author">
+                                Lofi Quran
+                            </p>
+                            <p class="stats"> 
+                                3.7M views &#183; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pic-row"> 
+                        <img class ="pic" src="pictures/hq722.webp">
+                        <div class="video-time"><strong>3:13</strong></div>
+                    </div>
+                    <div class="info-grid">
+                        <div class="channel-pic">                
+                            <img class = "profile-pic" src="channel-pictures/unnamed3.jpg">
+                        </div>
+                        <div class="info">
+                            <p class="video-title">
+                                <strong>
+                                    Python full course for free
+                                </strong>
+                            </p>
+                            <p class="author">
+                                Bro Code
+                            </p>
+                            <p class="stats">
+                                12M views · 2 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pic-row"> 
+                        <img class ="pic" src="pictures/hqdefault2.webp">
+                        <div class="video-time"><strong>10:10</strong></div>
+                    </div>
+                    <div class="info-grid">
+                        <div class="channel-pic">                
+                            <img class = "profile-pic" src="channel-pictures/channels6_profile.jpg">
+                        </div>
+                        <div class="info">
+                            <p class="video-title">
+                                <strong>Surah Mulk - An Nafee - Recited by Ismail An Nouri</strong>
+                            </p>
+                            <p class="author">
+                                Al Islamic TV24
+                            </p>
+                            <p class="stats"> 
+                                227 views &#183; 13 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pic-row"> 
+                        <img class ="pic" src="pictures/hq723.webp">
+                        <div class="video-time"><strong>5:01</strong></div>
+                    </div>
+                    <div class="info-grid">
+                        <div class="channel-pic">                
+                            <img class = "profile-pic" src="channel-pictures/channels5_profile.jpg">
+                        </div>
+                        <div class="info">
+                            <p class="video-title">
+                                <strong>
+                                    Bangladesh - Land of Natural Beauty
+                                </strong>
+                            </p>
+                            <p class="author">
+                                Scenic Scenes
+                            </p>
+                            <p class="stats">
+                                491K views · 7 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
